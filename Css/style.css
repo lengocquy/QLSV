@@ -1,0 +1,161 @@
+@CHARSET "ISO-8859-1";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #003A6A;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#wrapper_body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-top: solid 4px #CDCDCD;	
+}
+#wrapper_body .main-wrapper_body {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 5px;
+	padding-bottom: 5px;
+}
+.container {
+    margin-bottom: 5px;
+    border: solid 1px #007180;
+    padding: 0px;
+}
+.container .c1 {
+    background: #007180;
+    margin: 0;
+}
+.container .titleblack {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.container .containerpane {
+    padding: 3px;
+}
+input {
+	padding: 6px 12px;
+    color: #504c4c;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#a1{position: relative;left: 10px;width: 250px;}
+#box_search {
+	float: left;
+	width: 95%;
+	margin: 10px 20px 20px 20px;
+}
+#inp_masv {
+	width: 250px;
+	font-size: 15px;
+}
+.submit_search {
+	color: #fff;
+	background-color: #4452b1;
+}
+.submit_search:hover {
+	color: #fff;
+	background-color: #172baf;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	float:left;
+	position:relative;
+}
+/*thong tin ảnh */
+.thongtinad img{
+	width: 100%;
+	border: 1px solid #CCC;
+	padding: 3px;
+	border-radius: 3px;
+}
+.caption{
+	text-align: center;
+	font-size: 24px;
+}
+.thongtinad .avatar{
+	width: 80px;
+	height: 80px;
+	margin-top: -50px;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.thongtinad .anhbia{
+	width: 306px;
+	height: 100px;
+}
+.thongtinad p{
+	color: #FFF;
+	font-size: 20px;
+	background: rgba(0,0,0,.5);
+	padding: 2px 5px 5px 95px;
+	margin-top: -30px;
+}
+/*Menu*/
+.list-group-item{
+	background-color: #FFF;
+	border: 1px solid #666;
+	color:#FFF;
+}
+
+a.list-group-item, button.list-group-item{
+	color: #333;
+}
+
+.chon{
+	background-color: #111;
+}
+.thongtindk{
+	width: 100%; 
+	border-radius: 5px; 
+	border: 1px solid #CCC; 
+	padding: 15px;
+	text-align:left;
+	margin-bottom: 5px;
+}
+/*.thongtindk a{
+	color: #FFF;
+}*/
+#bangdk > .col-md-3, .col-lg-3{
+	margin-top: 0;
+}
+.thongtindk tr:hover{
+		background: none !important;
+	}
+.icon{
+	font-size: 70px;
+}
+.numdk{
+	font-size: 40px;
+}
+.hocky{
+	width: 50%;
+}
+/*== Modal ==*/
+.modal-content{
+	background-color: #555;
+}
+
+
+th{
+	text-align: center;
+}
+div.list-group-item{
+	background-color:#FFF;
+}
+.chimuc:hover{
+	background-color: transparent; !important;
+}

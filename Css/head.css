@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+.main-wrapper {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+#header {
+    background: #1f2dce url(image/Logo.png) no-repeat  ;
+    line-height: normal;
+    position: relative;
+    margin: 0px auto;
+    height: 130px;
+}
+#account {
+    margin: 0 auto;
+    width: 980px;
+    text-align: right;
+}
+.clr {
+    clear: both;
+}
+#title {
+	margin-top: 15px;
+	text-align: center;
+    height: auto;
+	width: 60%;
+}
+#title span {
+	font-family: League Gothic;
+    font-size: 24px;
+	color: #003A6A;
+}
